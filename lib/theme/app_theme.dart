@@ -33,13 +33,13 @@ class AppTheme {
     headlineSmall: TextStyle(
       fontFamily: defaultFontFamily,
       fontSize: 18,
-      fontWeight: FontWeight.w600,
+      fontWeight: FontWeight.w200,
       color: secondaryTextColorLight,
     ),
     headlineMedium: TextStyle(
       fontFamily: defaultFontFamily,
       fontSize: 24,
-      fontWeight: FontWeight.w700,
+      fontWeight: FontWeight.bold,
       color: primaryTextColorLight,
     ),
   );
@@ -48,13 +48,13 @@ class AppTheme {
     headlineSmall: TextStyle(
       fontFamily: defaultFontFamily,
       fontSize: 18,
-      fontWeight: FontWeight.w600,
+      fontWeight: FontWeight.w200,
       color: primaryTextColorDark,
     ),
     headlineMedium: TextStyle(
       fontFamily: defaultFontFamily,
       fontSize: 24,
-      fontWeight: FontWeight.w700,
+      fontWeight: FontWeight.bold,
       color: secondaryTextColorDark,
     ),
   );
