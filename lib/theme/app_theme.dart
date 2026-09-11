@@ -9,6 +9,9 @@ class AppTheme {
   static const Color secondaryTextColorLight = Colors.orangeAccent;
   static const Color thirdTextColorLight = Colors.black;
 
+  static const Color ShadowColorLight = Colors.black26;
+  static const Color ShadowColorDark = Colors.white24;
+
   static const Color primaryTextColorDark = Colors.orangeAccent;
   static const Color secondaryTextColorDark = Colors.teal;
   static const Color thirdTextColorDark = Colors.white;

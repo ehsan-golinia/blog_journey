@@ -63,7 +63,7 @@ class HomeScreen extends StatelessWidget {
               CategoryList(),
               const SizedBox(height: 20,),
               PostList(posts: posts),
-              const SizedBox(height: 32,),
+              const SizedBox(height: 96,),
             ],
           ),
         ),
