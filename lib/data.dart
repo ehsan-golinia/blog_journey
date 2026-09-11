@@ -134,28 +134,36 @@ class AppDatabase {
     return [
       PostData(
           id: 1,
-          title: 'BMW M5 Competition Review 2021',
-          caption: 'TOP GEAR',
+          title: 'Mercedes-Benz Competition Review 2026',
+          caption: 'SCOOPS',
           isBookmarked: false,
           likes: '3.1k',
           time: '1hr ago',
           imageFileName: 'small_post_1.jpg'),
       PostData(
-          id: 0,
-          title: 'MacBook Pro with M1 Pro and M1 Max review',
-          caption: 'THE VERGE',
+          id: 2,
+          title: 'iMac with M4 chip review',
+          caption: 'TECH MAG',
           isBookmarked: false,
           likes: '1.2k',
           time: '2hr ago',
           imageFileName: 'small_post_2.jpg'),
       PostData(
-          id: 2,
-          title: 'Step design sprint for UX beginner',
-          caption: 'Ux Design',
+          id: 3,
+          title: 'Life in San Francisco',
+          caption: 'TRAVELIST',
           isBookmarked: true,
           likes: '2k',
-          time: '41hr ago',
+          time: '3hr ago',
           imageFileName: 'small_post_3.jpg'),
+      PostData(
+          id: 4,
+          title: 'Hydration and Nutrition',
+          caption: 'MYHEALTH',
+          isBookmarked: true,
+          likes: '1.6k',
+          time: '4hr ago',
+          imageFileName: 'small_post_4.jpg'),
     ];
   }
 }

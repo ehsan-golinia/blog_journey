@@ -89,11 +89,11 @@ flutter:
         - asset: assets/fonts/AvenirLTProBook.otf
           weight: 300
         - asset: assets/fonts/AvenirLTProRoman.otf
-          weight: 300
+          weight: 400
         - asset: assets/fonts/AvenirLTProMedium.otf
-          weight: 300
+          weight: 500
         - asset: assets/fonts/AvenirLTProHeavy.otf
-          weight: 300
+          weight: 900
   #   - family: Trajan Pro
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf

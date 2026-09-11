@@ -9,12 +9,14 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final stories = AppDatabase.stories;
+    final posts = AppDatabase.posts;
     return Scaffold(
       // appBar: AppBar(
       //   title: const Text('Blog Journey'),
       // ),
       body: SafeArea(
         child: SingleChildScrollView(
+        physics: const BouncingScrollPhysics(),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
@@ -59,6 +61,9 @@ class HomeScreen extends StatelessWidget {
               StoryList(stories: stories),
               const SizedBox(height: 20,),
               CategoryList(),
+              const SizedBox(height: 20,),
+              PostList(posts: posts),
+              const SizedBox(height: 32,),
             ],
           ),
         ),
